@@ -1,4 +1,9 @@
 ---
+layout: default
+tags: home
+---
+
+---
 # Hello, I'm Timothy Hourihan!
 ## Welcome to my Website.
 ---
