@@ -16,7 +16,6 @@ I am currently looking for an internship for Summer 2021, and I hope to learn mo
 Thank you for visiting my website! 
 
 
-# The following is code used directly from linkedIn's tutorial, Create Profile Badge
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
