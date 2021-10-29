@@ -15,5 +15,10 @@ I am currently looking for an internship for Summer 2021, and I hope to learn mo
 
 Thank you for visiting my website! 
 
+
+# The following is code used directly from linkedIn's tutorial, Create Profile Badge
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="timothy-h-1303b0207" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/timothy-h-1303b0207?trk=profile-badge">Timothy H.</a></div>
               
