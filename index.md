@@ -5,7 +5,7 @@ tags: home
 
 I am pursuing a Bachelor's of Science in Computer Science at the University of Rhode Island. Additioanlly, I am pursuing a minor in Math and Cybersecurity. 
 
-I have experience with Python, C#, and Java.
+I have experience with Python, C#, SQL, and Java.
 
 I have participated in several _game jams_, or competitions in which you only have a certain amount of time to create a game following a particular theme. I have published 3 games using the Unity game engine and the C# programming language, and 2 games using Godot and its native GD_Script language. You can play all of these games on my [itch.io page](https://source1012.itch.io/).
 
