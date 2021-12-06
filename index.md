@@ -3,9 +3,7 @@ layout: default
 tags: home
 ---
 
-I'm studying computer science at the University of Rhode Island. I plan on minoring in cyber security as well.
-
-I chose to learn computer science because I love problem solving and the logic behind it. 
+I am pursuing a Bachelor's of Science in Computer Science at the University of Rhode Island. Additioanlly, I am pursuing a minor in Math and Cybersecurity. 
 
 I have experience with Python, C#, and Java.
 
