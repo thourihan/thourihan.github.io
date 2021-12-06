@@ -13,9 +13,6 @@ You can find some of my games on [itch.io](https://source1012.itch.io/). These w
 
 I am currently looking for an internship for Summer 2022, and I hope to learn more about computer science as a principle and broaden my skills.
 
-Thank you for visiting my website! 
-
-
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
