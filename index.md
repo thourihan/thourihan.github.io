@@ -7,7 +7,7 @@ I am pursuing a Bachelor's of Science in Computer Science at the University of R
 
 I have experience with Python, C#, and Java.
 
-You can find some of my games on [itch.io](https://source1012.itch.io/). These were all made as part of  _game jams_, competitions in which you only have a certain amount of time to create a game following a particular theme. I have published 3 games using Unity and the C# programming language, and 1 game using Godot and its native GD_Script language. 
+I have participated in several _game jams_, or competitions in which you only have a certain amount of time to create a game following a particular theme. I have published 3 games using the Unity game engine and the C# programming language, and 2 games using Godot and its native GD_Script language. You can play all of these games on [itch.io](https://source1012.itch.io/).
 
 I am currently looking for an internship for Summer 2022, and I hope to learn more about computer science as a principle and broaden my skills.
 
