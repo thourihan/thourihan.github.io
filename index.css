@@ -94,7 +94,15 @@ a {
   margin-right: 3.5rem;
 }
 
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
 
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
   
 .nav-list  a {
   display: block;
