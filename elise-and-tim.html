@@ -18,6 +18,7 @@
       let texts = ["Love", "Here is my beautiful intelligent girlfriend", "everyone look at her on this wildly public website"];
       $("#container").click(function(){
         number++;
+        console.log(number);
         $("#img").attr("src", "elise-"+number+".jpg");
         $("#text").html(texts[number]);
       });
