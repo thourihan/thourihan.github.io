@@ -23,6 +23,9 @@
         console.log(number);
         $("#image").attr("src", "elise-"+number+".jpg");
         $("#text").html(texts[number]);
+        if (number == 5){
+          number = 0;
+        }
       });
     </script>
   </body>
