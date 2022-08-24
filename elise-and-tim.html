@@ -22,13 +22,15 @@
                    "To this day, I have no idea how I scored this gal",
                    "Everyone look at her on this wildly public website!",
                    "I know I'm the luckiest guy alive and I can't afford to take her for granted. She is the mac to my cheese, the pepperoni to my pizza. The vodka to my al penne.",
-                   "Sometimes I wish she was as cute as her cat, mango. But I know that's just setting unrealistic expectations."];
+                   "Sometimes I wish she was as cute as her cat, mango. But I know that's just setting unrealistic expectations.",
+                   "She's an awesome adventurer",
+                   "Double majoring??!?! SHES A GENIUS TOO? Shes going to absolutely slay climate change and some other bio techhy stuff, so here's a pic of her treehugging"];
       $("#container").click(function(){
         number++;
         console.log(number);
         $("#image").attr("src", "elise-"+number+".jpg");
         $("#text").html(texts[number]);
-        if (number == 5){
+        if (number == 7){
           number = 0;
         }
       });
