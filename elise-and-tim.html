@@ -15,12 +15,10 @@
         <h1 class="text-center" id="text">Love.</h1>
       </div>
     </div>
-    <iframe src="https://mp3gaga.com/wp-content/uploads/2022/06/George-Michael-%E2%80%93-Careless-Whisper.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-    </iframe> 
-    <audio autoplay>
-      <source src="https://mp3gaga.com/wp-content/uploads/2022/06/George-Michael-%E2%80%93-Careless-Whisper.mp3" type="audio/mpeg">
-    </audio>
     <script>
+      var audio = new Audio('https://mp3gaga.com/wp-content/uploads/2022/06/George-Michael-%E2%80%93-Careless-Whisper.mp3');
+      audio.play();
+      
       let number = 0;
       let texts = ["Love", 
                    "Here is my beautiful intelligent girlfriend, elise.\n She taught me what love truly means, and I wouldn't be anywhere without her true love and support today.",
