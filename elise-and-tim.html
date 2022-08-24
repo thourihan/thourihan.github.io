@@ -19,6 +19,9 @@
     <script>
       for (let i=0; i<100; i++){
               $("#hearts").append("<div>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</div>");
+              if (i%5 == 0){
+                $("#hearts").append("<div>❤️L❤️O❤️V❤️E❤️❤️L❤️O❤️V❤️E❤️❤️L❤️O❤️V❤️E❤️</div>");
+              }
       }
       var audio = new Audio('https://mp3gaga.com/wp-content/uploads/2022/06/George-Michael-%E2%80%93-Careless-Whisper.mp3');
       audio.play();
@@ -46,7 +49,7 @@
                    {
           $("#hearts").addClass("d-none"); 
                    },
-                   500); 
+                   900); 
         $("#image").attr("src", "elise-"+number+".jpg");
         $("#text").html(texts[number]);
         if (number == 8){
