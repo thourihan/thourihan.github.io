@@ -9,7 +9,7 @@
     <title>Elise + Tim <3</title>
   </head>
   <body style="background-color:#87ae73;">
-    <div id="hearts" class="text-center"></div>
+    <div id="hearts" class="text-center d-none"></div>
     <div style="height: 500px;"  id="container">
       <div class="container w-25 h-25">
         <img src="elise-1.jpg" id="image" class="img-thumbnail">
@@ -40,6 +40,13 @@
       $("#container").click(function(){
         number++;
         console.log(number);
+        
+        $("#hearts").removeClass("d-none");
+        setTimeout(function()
+                   {
+          $("#hearts").addClass("d-none"); 
+                   },
+                   500); 
         $("#image").attr("src", "elise-"+number+".jpg");
         $("#text").html(texts[number]);
         if (number == 8){
