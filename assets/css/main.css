@@ -1161,6 +1161,13 @@ input, select, textarea {
 			z-index: 1;
 		}
 
+		/* Small screens */
+		@media (max-width: 736px) {
+			#bg:after {
+				background-image: url("../../images/small/bg.webp"); // Small image
+			}
+		}
+
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);

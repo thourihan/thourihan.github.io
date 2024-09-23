@@ -53,6 +53,13 @@
 			z-index: 1;
 		}
 
+		/* Small screens */
+		@media (max-width: 736px) {
+			#bg:after {
+				background-image: url("../../images/small/bg.webp");
+			}
+		}
+
 		body.is-article-visible & {
 			&:after {
 				@include vendor('transform', 'scale(1.0825)');
