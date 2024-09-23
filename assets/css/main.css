@@ -1288,6 +1288,10 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			display: flex; /* Use flexbox for centering */
+			align-items: center; /* Centers icon vertically */
+			justify-content: center; /* Centers icon horizontally */
+
 		}
 
 
@@ -1486,18 +1490,6 @@ input, select, textarea {
 				}
 
 		}
-
-	#code-icon {
-		font-size: 1.75rem;
-		padding-top: 30px;
-	}
-
-	@media screen and (max-width: 736px) {
-		#code-icon{
-			padding-top: 22px;
-		}
-	}
-
 
 	/* Main */
 
