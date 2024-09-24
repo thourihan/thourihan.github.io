@@ -1,5 +1,7 @@
+/*
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+*/
 
 /*
 	Dimension by HTML5 UP
@@ -1164,7 +1166,7 @@ input, select, textarea {
 		/* Small screens */
 		@media (max-width: 736px) {
 			#bg:after {
-				background-image: url("../../images/small/bg.webp"); // Small image
+				background-image: url("../../images/small/bg.webp");
 			}
 		}
 
