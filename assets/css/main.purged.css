@@ -1,11 +1,17 @@
 /*
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+*/
+
+/*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, h1, h2, h3, h4, p, a,
-code, img, s, strong, i, ul, li, label, th, article,
+code, img, s,
+small, strong, i, ul, li, label, th, article,
 footer, header, nav,
 section, summary, time {
 	margin: 0;
@@ -789,11 +795,59 @@ body {
 				opacity: 1;
 			}
 
+			#main article .close {
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 4rem;
+				height: 4rem;
+				cursor: pointer;
+				text-indent: 4rem;
+				overflow: hidden;
+				white-space: nowrap;
+			}
+
+				#main article .close:before {
+					-moz-transition: background-color 0.2s ease-in-out;
+					-webkit-transition: background-color 0.2s ease-in-out;
+					-ms-transition: background-color 0.2s ease-in-out;
+					transition: background-color 0.2s ease-in-out;
+					content: '';
+					display: block;
+					position: absolute;
+					top: 0.75rem;
+					left: 0.75rem;
+					width: 2.5rem;
+					height: 2.5rem;
+					border-radius: 100%;
+					background-position: center;
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					background-size: 20px 20px;
+					background-repeat: no-repeat;
+				}
+
+				#main article .close:hover:before {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				#main article .close:active:before {
+					background-color: rgba(255, 255, 255, 0.175);
+				}
+
 		@media screen and (max-width: 736px) {
 
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
+
+				#main article .close:before {
+					top: 0.875rem;
+					left: 0.875rem;
+					width: 2.25rem;
+					height: 2.25rem;
+					background-size: 14px 14px;
+				}
 
 		}
 
