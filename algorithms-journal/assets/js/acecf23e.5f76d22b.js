@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalgorithms_journal=self.webpackChunkalgorithms_journal||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/algorithms-journal/blog","blogTitle":"Blog","authorsListPath":"/algorithms-journal/blog/authors"}')}}]);

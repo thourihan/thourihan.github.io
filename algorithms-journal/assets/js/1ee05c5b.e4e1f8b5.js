@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalgorithms_journal=self.webpackChunkalgorithms_journal||[]).push([[2867],{7585:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/algorithms-journal/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
