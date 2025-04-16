@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'What This Is',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This is my personal algorithms journal - a place where I explore and explain problems I've solved, with full write-ups of how I approached each one.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Why I’m Doing It',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I’m using this space to sharpen my skills, think deeply about problem-solving strategies, and track my progress over time.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'What You’ll Find Here',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        For each problem, I'll write out a summary, my thought process, optimization ideas, and include a final solution in Python.
       </>
     ),
   },
