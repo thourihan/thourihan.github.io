@@ -1,4 +1,4 @@
-# Timothy Hourihan
+# Tim Hourihan
 
 A single-page personal website built with semantic HTML and one CSS stylesheet.
 There are no build tools, JavaScript dependencies, or remote font requests.
